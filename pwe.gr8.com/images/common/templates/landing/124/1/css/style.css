@@ -1,0 +1,95 @@
+/*----------------------------- 
+    CUSTOM
+-----------------------------*/
+
+a:hover {
+    color:#1953f7;
+}
+
+/* [ Base text ] */
+div.text-content,
+div[data-editable="webform"] label, 
+div[data-editable="webform"] input[type="text"], 
+div[data-editable="webform"] textarea, 
+div[data-editable="webform"] select,
+div[data-editable="webformNew"] label,
+div[data-editable="webformNew"] input[type="text"],
+div[data-editable="webformNew"] textarea,
+div[data-editable="webformNew"] select,
+div[data-editable="webformNew"] .directional,
+div[data-editable="webinarNew"] label,
+div[data-editable="webinarNew"] input[type="text"],
+div[data-editable="webinarNew"] textarea,
+div[data-editable="webinarNew"] select,
+div[data-editable="webinarNew"] .directional {
+    font-size: 19px;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    color: rgb(21, 21, 21);
+    font-weight: 300;
+}
+
+/* [ Webform inputs] */
+div[data-editable="webform"] input[type="text"], 
+div[data-editable="webform"] textarea, 
+div[data-editable="webform"] select,
+div[data-editable="webformNew"] input[type="text"],
+div[data-editable="webformNew"] [data-item-what="phone"] .fix-table-bug,
+div[data-editable="webformNew"] textarea,
+div[data-editable="webformNew"] select,
+div[data-editable="webinarNew"] input[type="text"],
+div[data-editable="webinarNew"] [data-item-what="phone"] .fix-table-bug,
+div[data-editable="webinarNew"] textarea,
+div[data-editable="webinarNew"] select {
+    border-radius: 8px;
+    border: 3px solid rgb(236, 240, 242);
+    background-color: rgb(255, 255, 255);
+}
+
+div[data-editable="webformNew"] [data-item-what="phone"] input[type="text"],
+div[data-editable="webinarNew"] [data-item-what="phone"] input[type="text"] {
+    border:none;
+}
+
+div[data-editable="webformNew"] .directional::after {
+    border-color: rgb(21,21,21) transparent transparent transparent;
+}
+
+[data-editable="webformNewItem"].opened .directional::after {
+    border-color: transparent transparent rgb(21,21,21) transparent;
+}
+
+/* [ Button container ] */
+div[data-editable="button"],
+div[data-editable="webinarButton"],
+div[data-editable="webform"] button,
+div[data-editable="webformNewButton"] button {
+    border-radius: 7px;
+    background-color: rgba(255, 114, 0, 1);
+    box-shadow: rgba(217, 97, 0, 1) 0 5px 0 0;
+}
+
+div[data-editable="button"] button,
+div[data-editable="webinarButton"] button,
+div[data-editable="webform"] button,
+div[data-editable="webformNewButton"] button {
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    text-shadow: rgba(0, 0, 0, 0.4) 0 1px 2px;
+    font-size: 38px;
+}
+
+/* [ Button :hover ] */ 
+div[data-editable="button"].hover,
+div[data-editable="webinarButton"].hover,
+div[data-editable="webform"] div[data-type="submit"].hover button,
+[data-editable="webformNewButton"].hover button {
+    background-color: rgba(255, 114, 0, 0.9);
+    box-shadow: rgba(217, 97, 0, 0.9) 0 3px 0 0; 
+}
+
+div[data-editable="button"].hover button,
+div[data-editable="webinarButton"].hover button,
+div[data-editable="webform"] div[data-type="submit"].hover button,
+[data-editable="webformNewButton"].hover button {
+    color: #fff;
+}

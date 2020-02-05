@@ -1,0 +1,7 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+pwe.gr8.com	TRUE	/	FALSE	1999999999	squeeze-page	5ltun0ucsckem788tg90apvkra
+pwe.gr8.com	TRUE	/	FALSE	1999999999	SSLc0[variantVersion]	0
+pwe.gr8.com	TRUE	/	FALSE	1999999999	SSLc0[visit]	SopSu
+pwe.gr8.com	TRUE	/	FALSE	1999999999	SSLc0[uniqueVisit]	SopSu
+
